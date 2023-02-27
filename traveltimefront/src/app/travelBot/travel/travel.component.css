@@ -1,0 +1,116 @@
+body {
+  width: 100%;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  background-color: #d5cbcb !important;
+}
+
+.firstPart {
+  width: 100%;
+  margin: 0px;
+  padding: 48px;
+  padding-bottom: 10px;
+  background-image: url('http://dev.tural.az/assets/img/bg-image.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1 {
+  width: 94px;
+  height: 94px;
+}
+.img2 {
+  width: 130px;
+  height: 50px;
+}
+.agent {
+  width: 118px;
+  height: 38px;
+  font-size: 25px;
+  background-color: rgb(6, 57, 79);
+  color: #ffffff;
+  margin-top: 35px;
+}
+.part1-2 {
+  color: #ffffff;
+  padding: 30px;
+  padding-bottom: 0;
+  font-size: 120px;
+  line-height: 75px;
+  font-family: "Merriweather", serif;
+}
+
+.part1-2-1 h1 {
+  font-size: 60px;
+}
+
+.btn2 {
+  background-color: rgb(63, 63, 241);
+  color: #ffffff;
+  text-decoration: none;
+  width: 170px;
+  height: 55px;
+  border-radius: 10%;
+}
+.btn2 h4 {
+  margin-top: 8px;
+}
+.tgLogo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: rgb(53, 53, 245);
+  /* margin-left: -10px;
+  margin-top: -13px; */
+}
+.tgLogo img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+.img3 {
+  height: 480px;
+}
+.secondPart {
+  height: 540px;
+  border-radius: 10%;
+  padding-left: 48px;
+  margin: 110px;
+  position: relative;
+}
+.secondPart .text {
+  padding: 48px;
+}
+.secondPart .img4 {
+  width: 445px;
+  height: 540px;
+  margin: 0;
+  padding: 0;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.secondPart a{
+  margin-left: 10px;
+}
+.secondPart p{
+  font-size: 20px;
+}
+.part3-1{
+ margin: 27px;
+ padding: 16px 25px;
+ box-shadow:  inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+ 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);;
+}
+.lastPart{
+  margin: 48px;
+  padding: 20px;
+}
+
+.imgs{
+  margin-bottom: -45px;
+}
+
+
+

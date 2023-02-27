@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoginPage </title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="navDiv d-flex">
+        <div class="imgs d-flex flex-row">
+          <h1>Travel Time</h1>
+        </div>
+      </div>
+      <div class="head">
+        <div class="hBtnDiv">
+          <button class="hBtn" (click)="passDaxil()">
+            <a routerLink="/daxil" routerLinkActive="active">Daxil Ol</a>
+          </button>
+        </div>
+        <div class="hBtnDiv">
+          <button class="hBtn" (click)="passQeydiyyat()">
+            <a routerLink="/reg">Qeydiyyat</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="login">
+        <div class="text">
+          Xoş gəlmisiniz! <br />
+          Zəhmət olmasa, <br />
+          aşağıdakı xanaları doldurun.
+        </div>
+        <div class="form">
+          <form [formGroup]="loginForm">
+            <div class="formDiv">
+              <div class="inpDiv">
+                <input
+                  type="text"
+                  placeholder="Elektron Poct"
+                  name="email"
+                  formControlName="email"
+                />
+              </div>
+              <div
+                class="alert alert-danger"
+                style="height: 30px; display: flex; align-items: center"
+                *ngIf="!loginForm.get('email').valid"
+              >
+                Emailinizi düzgün daxil edin
+              </div>
+              <div class="inpDiv">
+                <input
+                  type="password"
+                  placeholder="Sifre"
+                  name="pssw"
+                  formControlName="password"
+                />
+              </div>
+              <div
+                class="alert alert-danger"
+                style="height: 30px; display: flex; align-items: center"
+                *ngIf="!loginForm.get('password').valid"
+              >
+                Passwordu düzgün daxil edin
+              </div>
+              <div class="formBtn">
+                <button (click)="check()" class="btn1">Daxil Ol</button>
+                <!-- bura baxilmalidir -->
+              </div>
+              <div>
+                <a href="">Sifreni unutmusam</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

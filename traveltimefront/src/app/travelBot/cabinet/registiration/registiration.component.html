@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="navDiv d-flex">
+        <div class="imgs d-flex flex-row">
+          <h1>Travel Time</h1>
+        </div>
+      </div>
+
+      <div class="head">
+        <div class="hBtnDiv">
+          <button class="hBtn" (click)="passDaxil()">
+            <a routerLink="/daxil">Daxil Ol</a>
+          </button>
+        </div>
+        <div class="hBtnDiv">
+          <button class="hBtn" (click)="passQeydiyyat()">
+            <a routerLink="/reg">Qeydiyyat</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="login">
+        <div class="text">
+          Qeydiyyatdan keçmək üçün <br />
+          özünüz haqda düzgün məlumat verin
+        </div>
+        <div class="form">
+          <form>
+            <div class="formDiv">
+              <div class="inpDiv">
+                <input type="text" placeholder="Elektron Poct" />
+              </div>
+              <div class="inpDiv">
+                <input type="text" placeholder="Sifre" />
+              </div>
+              <div class="inpDiv">
+                <input type="text" placeholder="Elektron Poct" />
+              </div>
+              <div class="inpDiv">
+                <input type="text" placeholder="Elektron Poct" />
+              </div>
+              <div class="inpDiv">
+                <input type="text" placeholder="Elektron Poct" />
+              </div>
+              <div class="inpDiv">
+                <input type="text" placeholder="Elektron Poct" />
+              </div>
+              <div>
+                <a href="/assets/terms.pdf" download="">Qaydalar və şərtlər</a>
+                ilə tanış olun. Qeydiyyatdan keçərək siz bu razılaşmanın
+                şərtlərini qəbul etmiş olursunuz
+              </div>
+              <div class="formBtn">
+                <button class="hbtn1">Qeydiyyat</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
